@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.brainacad.java.flyer.GUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="258" height="112"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f009a" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Enter staff password "/>
+        </properties>
+      </component>
+      <component id="bcc6b" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="************"/>
+        </properties>
+      </component>
+      <component id="c5eed" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="OK"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>
